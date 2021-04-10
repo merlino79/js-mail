@@ -11,16 +11,15 @@ var emails = [
     "silvia@gmail.com"
 ];
 
-console.log(emails.length - 1);
 
-var email_utente = prompt("inserisci la tua email");
+
+console.log(emails.length - 1); // controllo
+
+var email_utente = prompt("inserire la vs email"); //prompt 
 
 
 
 //controllo della lista
-
-
-
 
 
 
@@ -32,12 +31,15 @@ for (var i = 0; i < emails.length; i++) {
 
     if (this_Mail === email_utente) {
         console.log("ci sei");
-        document.getElementById("exit").innerHTML = "sei stato trovato"
+        document.getElementById("exit").innerHTML = "sei presente nella lista"
         break
 
 
 
 
+
+    } else {
+        document.getElementById("exit").innerHTML = " non sei presente, mi spiace"
 
     }
 }

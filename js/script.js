@@ -14,3 +14,16 @@ var email = [
 console.log(email.length - 1);
 
 //controllo della lista
+
+
+var mail_presente = false;
+for (var i = 0; i < email.length; i++) {
+
+    var emails = email[i];
+    console.log(emails);
+
+
+
+
+
+}

@@ -1,5 +1,5 @@
 //creazione lista 
-var email = [
+var email_utente = [
     "luca@gmail.com",
     "marco@libero.it",
     "serena@libero.it ",
@@ -11,19 +11,27 @@ var email = [
     "silvia@gmail.com"
 ];
 
-console.log(email.length - 1);
+console.log(email_utente.length - 1);
 
 //controllo della lista
 
 
-var mail_presente = false;
-for (var i = 0; i < email.length; i++) {
-
-    var emails = email[i];
-    console.log(emails);
 
 
 
 
 
+for (var i = 0; i < email_utente.length; i++) {
+
+    var email = email_utente[i];
+    console.log(email);
+
+    if (email === email) {
+        console.log("ci sei");
+
+
+
+
+
+    }
 }

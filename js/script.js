@@ -33,6 +33,7 @@ for (var i = 0; i < emails.length; i++) {
     if (this_Mail === email_utente) {
         console.log("ci sei");
         document.getElementById("exit").innerHTML = "sei stato trovato"
+        break
 
 
 

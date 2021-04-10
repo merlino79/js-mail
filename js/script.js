@@ -1,5 +1,5 @@
 //creazione lista 
-var email_utente = [
+var emails = [
     "luca@gmail.com",
     "marco@libero.it",
     "serena@libero.it ",
@@ -11,7 +11,11 @@ var email_utente = [
     "silvia@gmail.com"
 ];
 
-console.log(email_utente.length - 1);
+console.log(emails.length - 1);
+
+var email_utente = prompt("inserisci la tua email");
+
+
 
 //controllo della lista
 
@@ -21,13 +25,14 @@ console.log(email_utente.length - 1);
 
 
 
-for (var i = 0; i < email_utente.length; i++) {
+for (var i = 0; i < emails.length; i++) {
 
-    var email = email_utente[i];
-    console.log(email);
+    var this_Mail = emails[i];
+    console.log(this_Mail);
 
-    if (email === email) {
+    if (this_Mail === email_utente) {
         console.log("ci sei");
+        document.getElementById("exit").innerHTML = "sei stato trovato"
 
 
 
